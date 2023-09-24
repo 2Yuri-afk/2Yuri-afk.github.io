@@ -1,0 +1,250 @@
+@media (max-width: 1000px) {
+  .imagebg {
+    width: 250px;
+    height: 250px;
+  }
+
+  #image {
+    width: 150px;
+  }
+
+  .proj {
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .texts {
+    padding-right: 0px;
+  }
+
+  .proj img {
+    width: 250px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .imagebg {
+    width: 200px;
+    height: 200px;
+  }
+
+  #image {
+    width: 100px;
+  }
+}
+
+@media (max-width: 750px) {
+  .lead-container {
+    flex-direction: column;
+    width: 75%;
+    flex-wrap: wrap;
+  }
+
+  .myselfpic {
+    margin-bottom: 20px;
+  }
+
+  .myself,
+  .myselfpic {
+    width: 88%;
+  }
+}
+
+@media (max-width: 700px) {
+  .factor-content-educ {
+    margin: 0px 60px 0px 10px;
+  }
+
+  .progress {
+    width: 100%;
+  }
+
+  .progressbars {
+    padding: 10px 5px 10px 5px;
+    width: 70%;
+  }
+
+  .pbimage {
+    padding: 10px 20px 10px 20px;
+  }
+
+  .pbswithimage {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .myself,
+  .myselfpic {
+    width: 85%;
+  }
+}
+
+@media (max-width: 500px) {
+  .myself,
+  .myselfpic {
+    width: 82%;
+  }
+
+  .myself {
+    text-align: center;
+  }
+  .myself h1 {
+    font-size: 30px;
+  }
+
+  .main-title h2 {
+    font-size: 20px;
+  }
+  .factor h1 {
+    font-size: 16px;
+  }
+
+  .factor img {
+    width: 20px;
+  }
+
+  .factor-content-educ {
+    font-size: 16px;
+  }
+
+  .factor-content-pet {
+    font-size: 16px;
+  }
+
+  .coding-intro {
+    font-size: 16px;
+    margin: 0px 20px 0px 20px;
+  }
+  .proj img {
+    width: 200px;
+    padding: 20px;
+  }
+  .texts h1 {
+    font-size: 20px;
+  }
+
+  .texts p {
+    font-size: 16px;
+  }
+
+  .view-all {
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+  }
+}
+@media (max-width: 425px) {
+  .myself,
+  .myselfpic {
+    width: 80%;
+  }
+}
+@media (max-width: 400px) {
+  .main-container {
+    width: 85%;
+  }
+  .myself,
+  .myselfpic {
+    width: 91%;
+  }
+
+  .factor {
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+  }
+
+  .proj img {
+    width: 150px;
+    padding: 20px;
+  }
+  .texts h1 {
+    font-size: 15px;
+  }
+
+  .texts p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 350px) {
+  .myself,
+  .myselfpic {
+    width: 88%;
+  }
+}
+
+@media (max-width: 300px) {
+  .myself,
+  .myselfpic {
+    width: 83%;
+  }
+}
+
+@media (max-width: 250px) {
+  .myself,
+  .myselfpic {
+    width: 78%;
+  }
+
+  .pbimage {
+    padding: 10px 0px 10px 0px;
+    width: 70%;
+  }
+
+  .imagebg {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+  }
+
+  #image {
+    width: 60px;
+  }
+}
+
+@media (max-width: 250px) {
+  #me {
+    max-width: 150px;
+  }
+
+  .myself {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .myself h1 {
+    font-size: 20px;
+  }
+
+  .myself p {
+    font-size: 15px;
+  }
+
+  .main-title h2 {
+    font-size: 15px;
+  }
+
+  .factor-content-educ {
+    color: rgb(135, 134, 134);
+    margin: 0px 10px 0px 0px;
+    font-size: 13px;
+  }
+
+  .factor h1 {
+    font-size: 13px;
+  }
+
+  .pets {
+    width: 150px;
+  }
+
+  .coding-intro {
+    font-size: 13px;
+  }
+}
