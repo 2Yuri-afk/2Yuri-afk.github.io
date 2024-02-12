@@ -1,0 +1,45 @@
+body {
+  background-image: url("pics/pic.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#yes {
+  background-color: rgb(151, 181, 151);
+  padding: 20px 40px 20px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#no {
+  background-color: rgb(199, 96, 93);
+  padding: 20px 40px 20px 40px;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#one {
+  width: 300px;
+}
